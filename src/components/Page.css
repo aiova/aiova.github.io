@@ -1,0 +1,9 @@
+.Page {
+	display: grid;
+
+    min-height: 100vh;
+}
+
+.Page__content {
+	margin: auto;
+}

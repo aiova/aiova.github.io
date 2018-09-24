@@ -1,0 +1,15 @@
+.Header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.Header__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Header__logo {
+	width: 10rem;
+	height: 1.5rem;
+}

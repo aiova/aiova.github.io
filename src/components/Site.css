@@ -1,0 +1,10 @@
+.Site {
+    position: relative;
+
+    min-height: 100vh;
+}
+
+.Site__logo {
+	width: 32rem;
+	margin-bottom: 5rem;
+}

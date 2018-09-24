@@ -1,0 +1,12 @@
+.Logo {
+	width: 100%;
+	height: 100%;;
+}
+
+.Logo__bracket{
+	fill: white;
+}
+
+.Logo__word{
+	fill: var(--color__primary);
+}

@@ -1,0 +1,11 @@
+.Features {
+	display: flex;
+}
+
+.Feature {
+	padding: .5rem 2rem;
+}
+
+.Feature + .Feature {
+	border-left: 1px solid currentColor;
+}

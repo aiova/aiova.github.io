@@ -1,0 +1,16 @@
+.Mark {
+
+}
+
+.Mark::before,
+.Mark::after {
+	color: var(--color__primary);
+}
+
+.Mark::before {
+	content: '[';
+}
+
+.Mark::after {
+	content: ']';
+}

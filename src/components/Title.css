@@ -1,0 +1,13 @@
+.Title {
+	margin-bottom: 2em;
+
+	font-size: 2rem;
+}
+
+.Title_center {
+	text-align: center;
+}
+
+.Title__colon {
+	color: var(--color__primary);
+}

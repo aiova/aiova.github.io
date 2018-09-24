@@ -1,0 +1,10 @@
+.Footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.Footer__content {
+	display: flex;
+	justify-content: space-between;
+}

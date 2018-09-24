@@ -1,0 +1,24 @@
+.Mate {
+	display: grid;
+	grid-gap: .5rem;
+	grid-template:
+		"Mate__linkedin	Mate__name" auto
+		"Mate__linkedin	Mate__position" auto
+		/ 2rem auto;
+
+	text-align: start;
+}
+
+.Mate__name {
+	grid-area: Mate__name;
+}
+
+.Mate__position {
+	grid-area: Mate__position;
+}
+
+.Mate__linkedin {
+	grid-area: Mate__linkedin;
+
+	color: white;
+}
