@@ -2,21 +2,22 @@
   {
     "name": "Alexander Konopko",
     "position": "Backend / Big Data",
-    "linkdin": "alexanderkonopko"
+    "linkedin": "alexanderkonopko"
   },
   {
     "name": "Oleg Kuznetsov",
     "position": "Distributed Systems / Big Data",
-    "linkdin": "oleg-kuznetsov-87ab163b"
+    "linkedin": "oleg-kuznetsov-87ab163b",
+    "photo": "/team/oleg.jpg"
   },
   {
     "name": "Ilya Koshelev",
     "position": "Backend / Search Engines",
-    "linkdin": "ilya-koshelev-79364197"
+    "linkedin": "ilya-koshelev-79364197"
   },
   {
     "name": "Vladislav Grozin",
     "position": "Data Scientist",
-    "linkdin": "grozin"
+    "linkedin": "grozin"
   }
 ]

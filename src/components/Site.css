@@ -5,6 +5,7 @@
 }
 
 .Site__logo {
-	width: 32rem;
+	max-width: 32rem;
+	width: 100%;
 	margin-bottom: 5rem;
 }

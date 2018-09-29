@@ -53,7 +53,7 @@ a:not(.plain)::after {
 	left: var(--gap);
 	background: var(--color__primary);
 
-	transform: translateY(100%);
+	transform: translateY(101%);
 	transition: transform .3s;
 }
 

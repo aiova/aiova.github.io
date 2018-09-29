@@ -2,8 +2,8 @@
 	display: grid;
 	grid-gap: .5rem;
 	grid-template:
-		"Mate__linkedin	Mate__name" auto
-		"Mate__linkedin	Mate__position" auto
+		"Mate__linkedin	Mate__name		Mate__photo" auto
+		"		.		Mate__position	Mate__photo" auto
 		/ 2rem auto;
 
 	text-align: start;
@@ -21,4 +21,10 @@
 	grid-area: Mate__linkedin;
 
 	color: white;
+}
+
+.Mate__photo {
+	grid-area: Mate__photo;
+
+	max-width: 5rem;
 }

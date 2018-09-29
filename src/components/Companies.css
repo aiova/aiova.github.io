@@ -1,5 +1,6 @@
 .Companies {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .Company {

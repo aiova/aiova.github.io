@@ -5,5 +5,6 @@
 }
 
 .Page__content {
+	padding: 0 1rem;
 	margin: auto;
 }

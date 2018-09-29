@@ -7,7 +7,7 @@ import projects from '../data/opensource.js'
 const Opensource = () => (
 	<div className="Opensource">
 		{projects.map(({ name, image, github }) => (
-			<a href={`https://github.com/${github}`} className="Opensource__link">
+			<a href={`https://github.com/${github}`} className="Opensource__link" key={name}>
 				{image ? (
 					<img src={`/opensource/${image}`} alt={name} className="Opensource__image"/>
 				) : (
