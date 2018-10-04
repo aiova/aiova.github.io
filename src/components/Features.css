@@ -1,14 +1,16 @@
-.Features {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
 .Feature {
 	padding: .5rem 2rem;
 	margin-top: 1rem;
 }
 
-.Feature + .Feature {
-	border-left: 1px solid currentColor;
+@media (min-width: 640px) {
+	.Features {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.Feature + .Feature {
+		border-left: 1px solid currentColor;
+	}
 }

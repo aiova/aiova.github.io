@@ -1,11 +1,10 @@
 .Header {
-	position: fixed;
-	top: 0;
-	width: 100%;
+	height: 3.5rem;
 }
 
 .Header__content {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }
 
