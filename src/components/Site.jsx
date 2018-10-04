@@ -61,7 +61,7 @@ const Site = () => (
 			<Page anchor="opensource">
 				<Title
 					mark="We use and contribute"
-					title="to the best open source sof ware"
+					title="to the best open source software"
 				/>
 				<Opensource />
 			</Page>
