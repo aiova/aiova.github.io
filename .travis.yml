@@ -1,12 +1,15 @@
 language: node_js
 node_js:
   - '10'
+install:
+  - npm ci
+before_deploy:
+  npm run build
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local-dir: dist
   target-branch: master
-  script: npm run build
   on:
     branch: develop
