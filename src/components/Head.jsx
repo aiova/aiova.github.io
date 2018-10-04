@@ -40,6 +40,7 @@ const Head = () => (
 		<meta name="msapplication-config" content="/favicons/browserconfig.xml" />
 		<link rel="yandex-tableau-widget" href="/favicons/yandex-browser-manifest.json" />
 		<meta charSet="utf-8" />
+		<link rel="canonical" href="https://aiova.github.io" />
 		<title>{site.title}</title>
 	</Helmet>
 )
