@@ -7,7 +7,8 @@
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",
-    "serve": "serve dist -p 3000"
+    "serve": "serve dist -p 3000",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
+    "gh-pages": "^2.0.0",
     "serve": "^6.1.0"
   }
 }
