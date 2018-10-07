@@ -4,11 +4,9 @@ import classNames from 'classnames'
 import './Logo.css'
 
 const Logo = ({
-	width = 'auto',
-	height = 'auto',
 	className,
 }) => (
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2088.3 365.4" width={width} height={height} className={classNames('Logo__svg', className)}>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2088.3 365.4" className={classNames('Logo__svg', className)}>
 		<path d="M86 34.2H35.3v297.1H86v34.1H0V.1h86z" className="Logo__bracket"/>
 		<path transform="translate(-1055.8 -978)" d="M1466.1 1239.1l23.1 63.7h40.2l-105.9-284.1h-42.6l-106 284.1h40.2l86.9-239" className="Logo__word"/>
 		<path d="M629 40.7h37.7v284.1H629z" className="Logo__word"/>

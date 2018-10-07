@@ -1,4 +1,14 @@
 {
   "title": "AIOVA - we build scalable high-loaded systems",
-  "color": "#6666FF"
+  "color": "#6666FF",
+  "description": "AIOVA team. We build scalable high-loaded systems. We are experts in: real-time pipelines, data mining, microservices, distributed systems, databases, machine learning",
+  "keywords": [
+    "team",
+    "real-time pipelines",
+    "data mining",
+    "microservices",
+    "distributed systems",
+    "databases",
+    "machine learning"
+  ]
 }

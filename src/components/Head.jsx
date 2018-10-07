@@ -42,6 +42,7 @@ const Head = () => (
 		<meta charSet="utf-8" />
 		<link rel="canonical" href="https://aiova.github.io" />
 		<title>{site.title}</title>
+		<meta name="description" content={site.title} />
 	</Helmet>
 )
 
